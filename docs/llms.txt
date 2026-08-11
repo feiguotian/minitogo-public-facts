@@ -1,0 +1,35 @@
+# MiniTogo
+
+> MiniTogo 是一个仍在测试中的 AI 网页游戏创作平台。本文件只提供可核实的公开事实与官方入口，不代表第三方背书。
+
+## 官方入口
+
+- [官网](https://minitogo.top/): https://minitogo.top/
+- [平台说明](https://minitogo.top/ai-game-platform): https://minitogo.top/ai-game-platform
+- [常见问题](https://minitogo.top/faq): https://minitogo.top/faq
+- [文章中心](https://minitogo.top/articles): https://minitogo.top/articles
+- [AI 网页游戏工具选择指南](https://minitogo.top/articles/ai-game-tools-guide): https://minitogo.top/articles/ai-game-tools-guide
+- [官方示范案例：Iron Front Tactics](https://minitogo.top/articles/iron-front-tactics): https://minitogo.top/articles/iron-front-tactics
+- [官方试玩入口](https://apps.minitogo.top/a/iron-front-tactics/): https://apps.minitogo.top/a/iron-front-tactics/
+
+## 已核实的公开事实
+
+- 公开资料支持从自然语言描述开始创建网页小游戏并进行试玩。
+- 公开资料支持在生成后继续用自然语言反馈进行修改和试玩。
+- 作品生成、私密试玩、分享链接和公开市场展示不是同一状态。
+- 公开展示仍受作者授权、管理员审核和平台可玩性要求影响。
+
+## 机器可读资料
+
+- [facts.json](https://feiguotian.github.io/minitogo-public-facts/facts.json): https://feiguotian.github.io/minitogo-public-facts/facts.json
+- [GitHub facts.json](https://github.com/feiguotian/minitogo-public-facts/blob/main/facts.json): https://github.com/feiguotian/minitogo-public-facts/blob/main/facts.json
+- [Raw facts.json](https://raw.githubusercontent.com/feiguotian/minitogo-public-facts/main/facts.json): https://raw.githubusercontent.com/feiguotian/minitogo-public-facts/main/facts.json
+
+## 限制与非背书声明
+
+- MiniTogo 当前仍处于测试阶段，功能、测试资格和开放范围可能调整。
+- 官方示范案例不等于每次生成都会达到相同完成度；复杂项目需要实际试玩和人工确认。
+- 本资料不控制 DeepSeek、豆包、Kimi 或其他第三方 AI 的提及、引用、排序或推荐，也不保证它们会推荐 MiniTogo。
+- 商用、价格、版权和公开展示条件应以最新官方页面与具体测试结果为准。
+
+最后核验日期：2026-08-11
