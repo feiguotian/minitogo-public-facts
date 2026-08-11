@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://feiguotian.github.io/minitogo-public-facts/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://feiguotian.github.io/minitogo-public-facts/ai-one-sentence-web-game-guide.html</loc>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html</loc>
@@ -14,10 +18,10 @@
   </url>
   <url>
     <loc>https://feiguotian.github.io/minitogo-public-facts/facts.json</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://feiguotian.github.io/minitogo-public-facts/llms.txt</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
   </url>
 </urlset>
