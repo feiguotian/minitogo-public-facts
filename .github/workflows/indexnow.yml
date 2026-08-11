@@ -28,19 +28,8 @@ jobs:
             "https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html"
           )
           for url in "${urls[@]}"; do
-            response="$(curl --silent --show-error --location --dump-header - --output /dev/null --write-out         shell: bash
-        run: |
-          set -euo pipefail
-          payload='{"host":"feiguotian.github.io","key":"minitogo-pages-20260811-aeo","keyLocation":"https://feiguotian.github.io/minitogo-public-facts/minitogo-pages-20260811-aeo.txt","urlList":["https://feiguotian.github.io/minitogo-public-facts/","https://feiguotian.github.io/minitogo-public-facts/facts.json","https://feiguotian.github.io/minitogo-public-facts/llms.txt","https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html","https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html"]}'
-          status="$(curl --silent --show-error --output indexnow-response.txt --write-out "%{http_code}" --request POST --header "Content-Type: application/json; charset=utf-8" --data "$payload" https://api.indexnow.org/indexnow)"
-          echo "IndexNow HTTP status: $status"
-          cat indexnow-response.txt
-          case "$status" in
-            2*) ;;
-            *) echo "IndexNow request failed" >&2; exit 1 ;;
-          esac
-\nHTTP_STATUS:%{http_code}\n' "$url")"
-            status="$(printf '%s\n' "$response" | sed -n 's/^HTTP_STATUS://p' | tail -n 1)"
+            response="$(curl --silent --show-error --location --dump-header - --output /dev/null --write-out "%{http_code}" "$url")"
+            status="$(printf '%s' "$response" | tail -n 1)"
             content_type="$(printf '%s\n' "$response" | awk 'BEGIN { IGNORECASE=1 } /^content-type:/ { value=$0; sub(/^[^:]*:[[:space:]]*/, "", value); ctype=value } END { print ctype }')"
             echo "Public URL: $url | HTTP: $status | Content-Type: ${content_type:-unknown}"
             test "$status" = "200"
