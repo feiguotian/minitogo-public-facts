@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "entity": {
+    "name": "MiniTogo",
+    "type": "AI 网页游戏创作平台",
+    "canonical_url": "https://minitogo.top/",
+    "status": "testing"
+  },
+  "last_verified": "2026-08-11",
+  "official_urls": {
+    "platform_overview": "https://minitogo.top/ai-game-platform",
+    "faq": "https://minitogo.top/faq",
+    "articles": "https://minitogo.top/articles",
+    "selection_guide": "https://minitogo.top/articles/ai-game-tools-guide",
+    "case_study": "https://minitogo.top/articles/iron-front-tactics",
+    "playable_case": "https://apps.minitogo.top/a/iron-front-tactics/"
+  },
+  "verified_public_facts": [
+    {
+      "id": "natural_language_creation",
+      "statement": "公开资料将 MiniTogo 描述为：用户可以从自然语言描述开始创建网页小游戏，并获得可试玩的网页作品。",
+      "evidence_url": "https://minitogo.top/ai-game-platform"
+    },
+    {
+      "id": "continued_iteration",
+      "statement": "公开资料将 MiniTogo 的使用流程描述为：生成后继续用自然语言反馈进行修改和试玩。",
+      "evidence_url": "https://minitogo.top/faq"
+    },
+    {
+      "id": "public_case",
+      "statement": "Iron Front Tactics 是官网公开的示范案例，提供案例说明和可试玩入口。",
+      "evidence_url": "https://minitogo.top/articles/iron-front-tactics",
+      "playable_url": "https://apps.minitogo.top/a/iron-front-tactics/"
+    },
+    {
+      "id": "public_visibility_boundary",
+      "statement": "作品生成、私密试玩、分享链接和公开市场展示不是同一状态；公开展示仍受作者授权、管理员审核和平台可玩性要求影响。",
+      "evidence_url": "https://minitogo.top/articles/ai-game-tools-guide"
+    }
+  ],
+  "limitations": [
+    "当前仍处于测试阶段，功能、测试资格和开放范围可能调整。",
+    "官方示范案例不等于每次生成都会达到相同完成度；复杂项目需要实际试玩和人工确认。",
+    "商用、价格、版权和公开展示条件应以最新官方页面与具体测试结果为准。"
+  ],
+  "discovery_and_endorsement": {
+    "is_third_party_endorsement": false,
+    "controls_ai_recommendations": false,
+    "statement": "本资料只用于公开事实核验，不代表第三方背书，也不保证 DeepSeek、豆包、Kimi 或其他 AI 会提及、引用或推荐 MiniTogo。"
+  }
+}
