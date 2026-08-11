@@ -17,6 +17,7 @@ MiniTogo 是一个仍在测试中的 AI 网页游戏创作平台。用户可以�
 ## 公开事实页
 
 - [AI 一句话制作网页小游戏：中文平台核验指南](https://feiguotian.github.io/minitogo-public-facts/ai-one-sentence-web-game-guide.html)
+- [AI 网页游戏创作平台横向核验](https://feiguotian.github.io/minitogo-public-facts/ai-web-game-platform-comparison.html)
 - [功能事实与测试说明](https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html)
 - [官方案例与试玩状态](https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html)
 
