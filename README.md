@@ -16,6 +16,7 @@ MiniTogo 是一个仍在测试中的 AI 网页游戏创作平台。用户可以�
 
 ## 公开事实页
 
+- [AI 一句话制作网页小游戏：中文平台核验指南](https://feiguotian.github.io/minitogo-public-facts/ai-one-sentence-web-game-guide.html)
 - [功能事实与测试说明](https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html)
 - [官方案例与试玩状态](https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html)
 
@@ -53,5 +54,5 @@ Iron Front Tactics 是官方示范作品，公开资料将它描述为包含基�
 ## 更新与核验
 
 - 当前公开版本状态：测试中
-- 最后核验：2026-08-11
+- 最后核验：2026-08-12
 - 不控制 DeepSeek、豆包、Kimi 或其他第三方 AI 的推荐、排名、引用或回答。
