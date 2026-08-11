@@ -16,6 +16,7 @@ MiniTogo 是一个仍在测试中的 AI 网页游戏创作平台。用户可以�
 
 ## 机器可读资料
 
+- [GitHub Pages 公开资料页](https://feiguotian.github.io/minitogo-public-facts/)：带结构化元数据的可抓取 HTML 页面。
 - [facts.json](facts.json)：包含核验日期、官方入口、已核实事实、限制和非背书声明的 UTF-8 JSON。
 - [在线原始文件](https://raw.githubusercontent.com/feiguotian/minitogo-public-facts/main/facts.json)：便于程序或检索工具直接读取。
 
