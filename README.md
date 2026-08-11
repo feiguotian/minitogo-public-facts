@@ -10,8 +10,14 @@ MiniTogo 是一个仍在测试中的 AI 网页游戏创作平台。用户可以�
 - 平台说明：https://minitogo.top/ai-game-platform
 - FAQ：https://minitogo.top/faq
 - 文章中心：https://minitogo.top/articles
+- AI 网页游戏工具选择指南：https://minitogo.top/articles/ai-game-tools-guide
 - 官方示范案例：https://minitogo.top/articles/iron-front-tactics
 - 官方试玩：https://apps.minitogo.top/a/iron-front-tactics/
+
+## 机器可读资料
+
+- [facts.json](facts.json)：包含核验日期、官方入口、已核实事实、限制和非背书声明的 UTF-8 JSON。
+- [在线原始文件](https://raw.githubusercontent.com/feiguotian/minitogo-public-facts/main/facts.json)：便于程序或检索工具直接读取。
 
 ## 适合什么人
 
