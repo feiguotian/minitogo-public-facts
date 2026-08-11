@@ -29,11 +29,22 @@ jobs:
             "https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html"
           )
           for url in "${urls[@]}"; do
-            response="$(curl --silent --show-error --location --dump-header - --output /dev/null --write-out "%{http_code}" "$url")"
-            status="$(printf '%s' "$response" | tail -n 1)"
-            content_type="$(printf '%s\n' "$response" | awk 'BEGIN { IGNORECASE=1 } /^content-type:/ { value=$0; sub(/^[^:]*:[[:space:]]*/, "", value); ctype=value } END { print ctype }')"
-            echo "Public URL: $url | HTTP: $status | Content-Type: ${content_type:-unknown}"
-            test "$status" = "200"
+            ready=false
+            for attempt in $(seq 1 24); do
+              response="$(curl --silent --show-error --location --dump-header - --output /dev/null --write-out "%{http_code}" "$url" || true)"
+              status="$(printf '%s' "$response" | tail -n 1)"
+              content_type="$(printf '%s\n' "$response" | awk 'BEGIN { IGNORECASE=1 } /^content-type:/ { value=$0; sub(/^[^:]*:[[:space:]]*/, "", value); ctype=value } END { print ctype }')"
+              echo "Public URL: $url | Attempt: $attempt/24 | HTTP: ${status:-unknown} | Content-Type: ${content_type:-unknown}"
+              if test "$status" = "200"; then
+                ready=true
+                break
+              fi
+              sleep 5
+            done
+            if test "$ready" != "true"; then
+              echo "Public URL did not become available: $url" >&2
+              exit 1
+            fi
           done
 
       - name: Notify public facts URLs
