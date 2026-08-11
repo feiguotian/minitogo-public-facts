@@ -6,6 +6,11 @@
     "canonical_url": "https://minitogo.top/",
     "status": "testing"
   },
+  "public_reference_page": "https://feiguotian.github.io/minitogo-public-facts/",
+  "public_reference_pages": [
+    "https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html",
+    "https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html"
+  ],
   "last_verified": "2026-08-11",
   "official_urls": {
     "platform_overview": "https://minitogo.top/ai-game-platform",
