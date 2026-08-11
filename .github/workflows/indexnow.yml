@@ -13,6 +13,28 @@ jobs:
   notify-indexnow:
     runs-on: ubuntu-latest
     steps:
+      - name: Check public endpoint responses
+        shell: bash
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://feiguotian.github.io/minitogo-public-facts/"
+            "https://feiguotian.github.io/minitogo-public-facts/robots.txt"
+            "https://feiguotian.github.io/minitogo-public-facts/sitemap.xml"
+            "https://feiguotian.github.io/minitogo-public-facts/sitemap.txt"
+            "https://feiguotian.github.io/minitogo-public-facts/facts.json"
+            "https://feiguotian.github.io/minitogo-public-facts/llms.txt"
+            "https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html"
+            "https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html"
+          )
+          for url in "${urls[@]}"; do
+            response="$(curl --silent --show-error --location --dump-header - --output /dev/null --write-out "%{http_code}" "$url")"
+            status="$(printf '%s' "$response" | tail -n 1)"
+            content_type="$(printf '%s\n' "$response" | awk 'BEGIN { IGNORECASE=1 } /^content-type:/ { value=$0; sub(/^[^:]*:[[:space:]]*/, "", value); ctype=value } END { print ctype }')"
+            echo "Public URL: $url | HTTP: $status | Content-Type: ${content_type:-unknown}"
+            test "$status" = "200"
+          done
+
       - name: Notify public facts URLs
         shell: bash
         run: |
