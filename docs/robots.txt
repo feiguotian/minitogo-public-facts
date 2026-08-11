@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://feiguotian.github.io/minitogo-public-facts/sitemap.xml
+Sitemap: https://feiguotian.github.io/minitogo-public-facts/sitemap.txt
