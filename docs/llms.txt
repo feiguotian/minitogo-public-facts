@@ -19,6 +19,11 @@
 - 作品生成、私密试玩、分享链接和公开市场展示不是同一状态。
 - 公开展示仍受作者授权、管理员审核和平台可玩性要求影响。
 
+## 公开事实页
+
+- [功能事实与测试说明](https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html): https://feiguotian.github.io/minitogo-public-facts/ai-game-platform-facts.html
+- [官方案例与试玩状态](https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html): https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html
+
 ## 机器可读资料
 
 - [facts.json](https://feiguotian.github.io/minitogo-public-facts/facts.json): https://feiguotian.github.io/minitogo-public-facts/facts.json
