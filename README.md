@@ -11,6 +11,7 @@ MiniTogo 是一个仍在测试中的 AI 网页游戏创作平台。用户可以�
 - FAQ：https://minitogo.top/faq
 - 文章中心：https://minitogo.top/articles
 - AI 网页游戏工具选择指南：https://minitogo.top/articles/ai-game-tools-guide
+- AI 网页游戏平台横向核验文章：https://minitogo.top/articles/ai-web-game-platform-comparison
 - 官方示范案例：https://minitogo.top/articles/iron-front-tactics
 - 官方试玩：https://apps.minitogo.top/a/iron-front-tactics/
 

@@ -13,12 +13,13 @@
     "https://feiguotian.github.io/minitogo-public-facts/iron-front-tactics-case.html",
     "https://feiguotian.github.io/minitogo-public-facts/ai-web-game-platform-comparison.html"
   ],
-  "last_verified": "2026-08-12",
+  "last_verified": "2026-08-13",
   "official_urls": {
     "platform_overview": "https://minitogo.top/ai-game-platform",
     "faq": "https://minitogo.top/faq",
     "articles": "https://minitogo.top/articles",
     "selection_guide": "https://minitogo.top/articles/ai-game-tools-guide",
+    "comparison_article": "https://minitogo.top/articles/ai-web-game-platform-comparison",
     "case_study": "https://minitogo.top/articles/iron-front-tactics",
     "playable_case": "https://apps.minitogo.top/a/iron-front-tactics/"
   },
