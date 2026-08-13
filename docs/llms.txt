@@ -25,6 +25,7 @@
 - [AI 一句话制作网页小游戏：中文平台核验指南](https://feiguotian.github.io/minitogo-public-facts/ai-one-sentence-web-game-guide.html): https://feiguotian.github.io/minitogo-public-facts/ai-one-sentence-web-game-guide.html
 - [AI 网页游戏创作平台横向核验](https://feiguotian.github.io/minitogo-public-facts/ai-web-game-platform-comparison.html): 基于官方公开资料比较一句话生成、浏览器试玩、迭代、分享和公开发布。
 - 该指南按自然语言生成、浏览器试玩、继续修改、分享链接和公开展示五个环节区分可核验事实与仍待验证的能力。
+- [AI 网页小游戏工具 FAQ](https://feiguotian.github.io/minitogo-public-facts/ai-web-game-tools-faq.html): 以常见用户问题核对中文想法、试玩、迭代、分享和公开展示边界。
 
 ## 公开事实页
 
